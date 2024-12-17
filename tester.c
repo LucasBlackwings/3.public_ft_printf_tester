@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   tester.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lahlsweh <lahlsweh@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/12/17 11:41:22 by lahlsweh          #+#    #+#             */
+/*   Updated: 2024/12/17 11:42:03 by lahlsweh         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 #include <limits.h>
 
@@ -58,7 +70,6 @@ int	main(void)
 	printf("|| %d\n\n", ft_printf("%% A %%%% B %c C %s D %d E %i F %u G %x H %X I %p J \177\200\201\202\203\204\205\206\207\210", var1, var2, var4, var5, var6, var16, var17, var13));
 	printf("|| %d\n",      printf("%% A %%%% B %c C %s D %d E %i F %u G %x H %X I %p J \177\200\201\202\203\204\205\206\207\210", var1, var12, var4, var5, var6, var8, var9, var11));
 	printf("|| %d\n\n", ft_printf("%% A %%%% B %c C %s D %d E %i F %u G %x H %X I %p J \177\200\201\202\203\204\205\206\207\210", var1, var12, var4, var5, var6, var8, var9, var11));
-
 	printf("|| %d\n",      printf("%p %p %p %p %p %p", var10, var11, var12, var13, var14, var15));
 	printf("|| %d\n\n", ft_printf("%p %p %p %p %p %p", var10, var11, var12, var13, var14, var15));
 	printf("|| %d\n",      printf("%p", (void *)-1));
